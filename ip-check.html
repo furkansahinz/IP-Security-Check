@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Security Check</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>IP Security Analysis</h1>
+            <p>Check the security status of IP addresses</p>
+        </div>
+
+        <div class="search-section">
+            <input type="text" id="ipInput" class="ip-input" placeholder="Enter IP addresses separated by commas..." onkeydown="if(event.key === 'Enter') checkMultipleIPs()">
+            <div class="button-group">
+                <button onclick="checkMultipleIPs()" class="check-button">Security Check</button>
+            </div>
+        </div>
+
+        <div class="loading">
+            <div class="loading-spinner"></div>
+            <p>Loading results...</p>
+        </div>
+
+        <div id="ipCount" class="ip-count"></div>
+
+        <div class="results-section" id="results">
+            <!-- Results will be added here dynamically -->
+        </div>
+    </div>
+
+</body>
+</html>
