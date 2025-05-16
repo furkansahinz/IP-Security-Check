@@ -4,26 +4,26 @@ const cors = require('cors');
 const path = require('path');
 const app = express();
 
-// CORS ayarlarını güncelle
+
 app.use(cors({
     origin: '*',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type', 'Accept']
 }));
 
-// Statik dosyaları serve et
+
 app.use(express.static(path.join(__dirname)));
 
-// AbuseIPDB API anahtarı
-const API_KEY = '891f0caea9b384021db3677ed0a57f8bb36ed7a0da16a222a448678160f926461678221b436aab30'; // AbuseIPDB'den aldığınız API anahtarını buraya yazın
+// AbuseIPDB API KEY
+const API_KEY = 'API_KEY'; // AbuseIPDB's API KEY
 
-// Test endpoint'i
+
 app.get('/test', (req, res) => {
     console.log('Test endpoint called');
     res.json({ message: 'Proxy server is working!' });
 });
 
-// IP kontrol endpoint'i
+
 app.get('/check-ip/:ip', async (req, res) => {
     try {
         console.log('Checking IP:', req.params.ip);
@@ -66,7 +66,7 @@ app.get('/check-ip/:ip', async (req, res) => {
     }
 });
 
-// Ana sayfa
+
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'test.html'));
 });
