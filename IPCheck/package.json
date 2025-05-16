@@ -1,0 +1,13 @@
+{
+  "name": "ip-security-check",
+  "version": "1.0.0",
+  "description": "IP Security Check with Whitelist Feature",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9"
+  }
+} 
