@@ -11,7 +11,7 @@ app.use(express.text());
 app.use(express.static('.'));
 
 // API key for AbuseIPDB
-const API_KEY = '891f0caea9b384021db3677ed0a57f8bb36ed7a0da16a222a448678160f926461678221b436aab30'; // Replace with your actual API key
+const API_KEY = 'API_KEY'; // Replace with your actual API key
 
 // Endpoint to check IP
 app.get('/check-ip/:ip', async (req, res) => {
