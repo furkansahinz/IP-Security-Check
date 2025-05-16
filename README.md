@@ -15,7 +15,8 @@ This tool allows you to analyze multiple IP addresses simultaneously. It uses th
 
 ```bash
 git clone https://github.com/furkansahinz/IP-Security-Check
-node proxy.js
+npm install
+npm start
 ````
 ![image](https://github.com/user-attachments/assets/6e9d1413-7645-4a5d-9c8a-f095544bde05)
 
