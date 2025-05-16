@@ -18,12 +18,5 @@ git clone https://github.com/furkansahinz/IP-Security-Check
 npm install
 npm start
 ````
-![image](https://github.com/user-attachments/assets/6e9d1413-7645-4a5d-9c8a-f095544bde05)
+![image](https://github.com/user-attachments/assets/5be84f9b-7d9c-4713-b06f-bae7a4ba9425)
 
-![image](https://github.com/user-attachments/assets/7701bda9-9f47-43bc-9e00-07717de15010)
-
-![image](https://github.com/user-attachments/assets/de78a793-2c5f-414c-801d-512d5e015135)
-
-![image](https://github.com/user-attachments/assets/0e26bd5d-7595-4e6a-9327-16529cd921ec)
-
-![image](https://github.com/user-attachments/assets/cfb8267d-247c-4971-999f-e2dc5290c0b8)
